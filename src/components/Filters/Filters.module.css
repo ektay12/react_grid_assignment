@@ -1,0 +1,46 @@
+@import url(https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800;900&display=swap);
+
+.filterSection {
+    margin: 16px 0;
+}
+.filterIconTextWrapper{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.filterIcon {
+    width: 25px;
+    height: 25px;
+}
+.filterIcon > img {
+    width: 100%;
+    height: 100%;
+}
+.filterText{
+    font-size: 0.85em;
+    font-weight: 600;
+    margin-left: 0.5em;
+}
+.filtersWrapper {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.filterItem {
+    padding: 6px 14px;
+    width: auto;
+    font-size: 12px;
+    color: #0084ff;
+    border-radius: 15px;
+    border: 1px solid #0084ff;
+    margin: 5px;
+    cursor: pointer;
+}
+.activeFilter{
+    background: linear-gradient(269deg, #0048ff, #0096ff);
+    color: #fff;
+}
